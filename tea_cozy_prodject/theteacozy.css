@@ -1,0 +1,236 @@
+*{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9; 
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    overflow: scroll;
+}
+
+heading{ 
+    max-height: 69px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed;
+    border-bottom:  1px solid seashell;
+    margin: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.box{
+    display: flex;
+    min-height: 69px;
+}
+
+heading img{
+    max-height: 50px;
+    margin-top: 9px;
+    display: flex;
+}
+
+div.img{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 10px;
+    max-width: 16%;
+}
+
+div#nav{
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    padding: 0px;
+    overflow: visible;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+
+ul.nav{
+    height: 50px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav li a{
+    text-decoration: underline;
+    display: inline;
+}
+
+
+                                /*top pithure*/
+
+div.top{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.container{
+    width: 95% ;
+}
+
+.container img{
+    position: relative;
+    margin-top: 69px;
+}
+.mission{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 95%;
+    top: 50%;
+}
+
+h2{
+    font-size: larger;
+    padding: 5px 0px 5px 0px;
+    border: 0px;
+}
+
+h3{
+    font-size: large;
+}
+
+h4{
+    font-size: medium;
+   padding: 5px 0px 5px 0px;
+   border: 0px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+                                            /*mid section*/
+
+.mid{
+    margin-top: 20px;
+}
+
+.teaofmounth{
+    margin-top: 95px;
+}
+
+div.teasample{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+div.image{
+    width: 300px;
+    height: 200px;
+}
+
+div.row{
+    width: 300px;
+}
+
+div.row2{
+    margin-top: 10px;
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row2 div{
+    width: 300px;
+}
+
+                                    /*lower section*/
+
+.lowersection{
+    background-image: url(file:///C:/Users/micha/coding/prodjects/css/My%20Side%20Prodjects/coffee.webp);
+    height: 500px;
+    margin-top: 80px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+#localbox{
+    margin-bottom: 100px;
+    width: 980px;
+    display: flex;
+    background: none;
+}
+
+.toplowerbox{
+    background: none;
+}
+
+.toplowerbox h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    background: none;
+}
+
+.locations{
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    display: flex;
+}
+
+.locations ul{
+    padding: 0;
+    list-style: none;
+    line-height: 4;
+    
+}
+
+.locations ul li{
+    font-size: medium;
+}
+
+h5{
+    font-size: smaller;
+}
+
+                                    /*footing*/
+
+#footer{
+    display: flex;
+    flex-direction: column;
+}
+    
+.contact{
+    height: 200px;
+    text-align: center; 
+    line-height: 3;
+}
+
+.copyright{
+    display: flex;
+
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: left;
+    font-size: smaller;
+}
